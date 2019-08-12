@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,<meta name="viewport" content="user-scalable=no, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="manifest" href="manifest.webmanifest">
+</head>
+
+<body>
+    <div id="header">
+        <h1 class="home"><a href="https://www.96fps.net">96fps</a></h1>
+        <h2 class="home">Mouth Sounds</h2>
+    </div>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn" id="dropdown">Examples</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </div>
+    
+    <audio id="audio" controls="true">
+        <source id="wav" src="examples/allstar/a.wav" type="audio/wav">
+        Your browser does not support HTML5 audio.
+    </audio>
+    <div id="transcript"></div>
+    <p>Experiment built using <a href="https://github.com/lowerquality/gentle">gentle</a> and other open source projects.</p>
+    <script src="loader.js"></script>
+    <script src="editor.js"></script>
+</body>
+
+</html>
