@@ -7,8 +7,8 @@
       "sound": "atpv.wav",
       "images": true,
       "bpm": 72.22,
-	  "offset": -1.15,
-	  "audio_duration": 30.0
+    "offset": -1.15,
+    "audio_duration": 30.0
     },{
       "name": "Runs in the Family",
       "loc": "examples/palmer/",
@@ -16,8 +16,8 @@
       "sound": "a.wav",
       "images": true,
       "bpm": 55.5,
-	  "offset": -0.65,
-	  "audio_duration": 30.0
+    "offset": -0.65,
+    "audio_duration": 30.0
     },
     {
       "name": "All Star - clip",
@@ -25,27 +25,36 @@
       "align": "align.json",
       "sound": "source_v2.wav",
       "images": true,
-      "bpm": 52,
-	  "offset": -0.4,
-	  "audio_duration": 9.65
+      "bpm": 104,
+    "offset": -0.4,
+    "audio_duration": 9.65
     },{
       "name": "All Star - google TTS",
       "loc": "examples/allstar-gtts/",
       "align": "align.json",
       "sound": "a.wav",
       "images": true,
-      "bpm": 52,
-	  "offset": 0,
-	  "audio_duration": 12.31
+      "bpm": 104,
+    "offset": -0.4,
+    "audio_duration": 12.31
+    },{
+      "name": "All Star - google TTS - sync",
+      "loc": "examples/allstar-gtts-sync/",
+      "align": "align.json",
+      "sound": "sync.wav",
+      "images": true,
+      "bpm": 104,
+    "offset": -0.4,
+    "audio_duration": 9.65
     },{
       "name": "hogs_gtts",
       "loc": "examples/hogs_gtts/",
       "align": "align.json",
       "sound": "a.wav",
-      "images": false,
-      "bpm": 52,
-	  "offset": 0,
-	  "audio_duration": 12.64
+      "images": true,
+      "bpm": 104,
+    "offset": 0,
+    "audio_duration": 12.64
     },
     {
       "name": "Hogs Start Coming",
@@ -53,8 +62,8 @@
       "align": "align.json",
       "sound": "feral_hogs.wav",
       "images": true,
-      "bpm": 52,
-	  "offset": -0.4,
-	  "audio_duration": 9.65
+      "bpm": 104,
+    "offset": -0.4,
+    "audio_duration": 9.65
     }]
 }

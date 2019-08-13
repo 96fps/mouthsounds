@@ -175,7 +175,7 @@ function render(ret, ex) {
       $wd.className = 'success';
       // $wd.style.height="0px";
       // $wd.style.opacity="0.25";
-      $wd.style.opacity = "0.75";
+      // $wd.style.opacity = "0.75";
 
       var dur = wd.end - wd.start;
       var wid = (dur / measure);
